@@ -1,4 +1,6 @@
-package org.example;
+package org.example.ls1;
+
+import org.example.ls1.SomeService;
 
 public class SomeServiceImpl implements SomeService {
     @Override

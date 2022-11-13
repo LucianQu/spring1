@@ -1,5 +1,4 @@
-spring的ioc，由spring创建对象
-
+一、spring的ioc，由spring创建对象
 实现步骤：
 1、创建maven项目
 2、加入maven的依赖
@@ -10,3 +9,18 @@ spring的ioc，由spring创建对象
 4、创建spring需要使用的配置文件
     声明类的信息，这些类由spring创建和管理
 5、测试spring创建的对象
+
+二、在spring的配置文件中给java对象的属性赋值
+di：依赖注入，表示创建对象，给属性赋值
+di的实现有两种：
+1、在spring的配置文件中，使用标签和属性完成，叫做基于XML的di实现
+2、使用spring中的注解，完成属性赋值，叫做基于注解的id实现
+
+di的语法分类：
+1、set注入（设置注入）：spring调用类的set方法，在set方法可以实现属性的赋值
+80%左右都是用的set注入
+2、构造注入，spring调用类的有参构造方法，创建对象。在构造方法中完成赋值
+实现步骤：
+1、通过spring实现属性的赋值
+
+ls14
